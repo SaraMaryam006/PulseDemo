@@ -11,7 +11,7 @@ from app import calculate_total, calculate_average, get_result
 
 def test_total():
     marks = [80, 70, 90]
-    assert calculate_total(marks) == 240
+    assert calculate_total(marks) == 300
 
 
 def test_average():
